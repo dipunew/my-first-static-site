@@ -9,9 +9,9 @@
   import RelatedLinks from '$lib/components/RelatedLinks.svelte';
 
   // Article metadata
-  let headline = 'Become a force for good. Join our next class.';
-  let byline = 'NYCity News Service';
-  let pubDate = '2026-01-31';
+  let headline = 'Breaking News: This is my first static site!';
+  let byline = 'Dipu Rai';
+  let pubDate = '2026-02-05';
 
   // Related stories
   const relatedStories = [
@@ -28,7 +28,7 @@
 
 <!-- Your page content goes here -->
 <div class="container">
-  
+
   <!-- Article Header: Headline, byline, and publication date -->
   <ArticleHeader
     {headline}
